@@ -225,11 +225,40 @@ body{
     background-color: #181e31;
     border: 1px solid #000ee0;
 }
+.item1 h3{
+    color: #0e0;
+    font-size: 1.5rem;
+}
+.item1 p{
+    color: white;
+    font-size: 20px;
+}
+.item1 a{
+    color: rgb(43, 226, 125);
+    font: 20px bold;
+    text-decoration: none;
+    cursor: pointer;
+}
 .item2{
     padding: 20px;
     background-color: #181e31;
     border: 1px solid #000ee0;
     margin-top: 10px;
+}
+
+.item h3{
+    color: #0e0;
+    font-size: 1.5rem;
+}
+.item2 p{
+    color: white;
+    font-size: 20px;
+}
+.item2 a{
+    color: rgb(43, 226, 125);
+    font: 20px bold;
+    text-decoration: none;
+    cursor: pointer;
 }
 .item3{
     padding: 20px;
@@ -237,11 +266,41 @@ body{
     border: 1px solid #000ee0;
     margin-top: 10px;
 }
+
+.item3 h3{
+    color: #0e0;
+    font-size: 1.5rem;
+}
+.item3 p{
+    color: white;
+    font-size: 20px;
+}
+.item3 a{
+    color: rgb(43, 226, 125);
+    font: 20px bold;
+    text-decoration: none;
+    cursor: pointer;
+}
 .item4{
     padding: 20px;
     background-color: #181e31;
     border: 1px solid #000ee0;
     margin-top: 10px;
+}
+
+.item4 h3{
+    color: #0e0;
+    font-size: 1.5rem;
+}
+.item4 p{
+    color: white;
+    font-size: 20px;
+}
+.item4 a{
+    color: rgb(43, 226, 125);
+    font: 20px bold;
+    text-decoration: none;
+    cursor: pointer;
 }
 .item5{
     padding: 20px;
@@ -249,11 +308,41 @@ body{
     border: 1px solid #000ee0;
     margin-top: 10px;
 }
+
+.item5 h3{
+    color: #0e0;
+    font-size: 1.5rem;
+}
+.item5 p{
+    color: white;
+    font-size: 20px;
+}
+.item5 a{
+    color: rgb(43, 226, 125);
+    font: 20px bold;
+    text-decoration: none;
+    cursor: pointer;
+}
 .item6{
     padding: 20px;
     background-color: #181e31;
     border: 1px solid #000ee0;
     margin-top: 10px;
+}
+
+.item6 h3{
+    color: #0e0;
+    font-size: 1.5rem;
+}
+.item6 p{
+    color: white;
+    font-size: 20px;
+}
+.item6 a{
+    color: rgb(43, 226, 125);
+    font: 20px bold;
+    text-decoration: none;
+    cursor: pointer;
 }
 .line{
     margin-top: 10px;
