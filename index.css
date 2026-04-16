@@ -144,23 +144,6 @@ body{
     opacity: 1;
     width: 96vw;
     justify-self: center;
-    animation-duration: 0.5s;
-    animation-name: va;
-    animation-delay: 0.3s;
-    animation-iteration-count: 1;
-    animation-direction: alternate;
-    animation-fill-mode: forwards;
-    margin-top: 30px;
-}
-@keyframes va{
-    from{
-        transform: translateY(5px);
-        opacity: 0;
-    }
-    to{
-        transform: translateY(0px);
-        opacity: 1;
-    }
 }
 .hero h1{
     font-size: 2rem;
@@ -209,6 +192,7 @@ body{
         background: linear-gradient(200deg,#0e0,#000ee0);
     }
 }
+
 .btn a:hover{
     color: white;
 }

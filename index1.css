@@ -152,23 +152,6 @@ body{
     opacity: 1;
     width: 96vw;
     justify-self: center;
-    animation-duration: 0.5s;
-    animation-name: eva;
-    animation-delay: 0.3s;
-    animation-iteration-count: 1;
-    animation-direction: alternate;
-    animation-fill-mode: forwards;
-    margin-top: 19px;
-}
-@keyframes eva{
-    from{
-        transform: translateY(5px);
-        opacity: 0;
-    }
-    to{
-        transform: translateY(0px);
-        opacity: 1;
-    }
 }
 @media(max-width:600px){
     #home.home{
