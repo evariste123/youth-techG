@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <link rel="stylesheet" href="./index3.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <!-- Replace with your actual logo file path -->
+             <div class="logo">
+            <a href="./index.html">
+              <h2>YouthTechG</h2>
+            </a>
+            </div>
+            <div class="link">
+                <a href="#home">🏠 Home</a>
+                <a href="./index1.html">👥 About</a>
+                <a href="./index5.html">👩‍💻Programs</a>
+                <a href="./index6.html">📖 Blog</a>
+                <a href="./index4.html">💬Discord</a>
+            </div>
+             <div class="hidden" id="menubutton">☰</div>
+        </nav>
+    </header>
+    <!-- 📚 FULL COURSES & RESOURCE HUB -->
+<section id="courses">
+
+    <header>
+        <h2>🎓 YouthTechG Full Courses & Resource Hub</h2>
+        <p>Explore our structured curriculum, download learning materials, and upload your projects for review.</p>
+    </header>
+
+    <!-- 1. RESOURCE ACTIONS (UPLOAD & DOWNLOAD) -->
+    <article>
+        <h3>📥 Share & Retrieve Learning Assets</h3>
+        
+        <!-- File Upload Form -->
+        <div>
+            <h4>Upload Your Homework or Projects</h4>
+            <form action="#" method="POST" enctype="multipart/form-data">
+                <p>
+                    <label for="student-name">Student Name:</label><br>
+                    <input type="text" id="student-name" name="student-name" placeholder="Alex Doe" required>
+                </p>
+                <p>
+                    <label for="course-select">Select Course Track:</label><br>
+                    <select id="course-select" name="course-select" required>
+                        <option value="" disabled selected>-- Choose Course --</option>
+                        <option value="web">Full-Stack Web Development</option>
+                        <option value="ai">AI & Machine Learning</option>
+                        <option value="game">Game Design & Development</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="file-upload">Select File to Upload (ZIP, PDF, or TXT):</label><br>
+                    <input type="file" id="file-upload" name="file-upload" accept=".zip,.pdf,.txt" required>
+                </p>
+                <p>
+                    <button type="submit">Upload Project 🚀</button>
+                </p>
+            </form>
+        </div>
+
+        <hr>
+
+        <!-- Bulk Resource Downloads -->
+        <div>
+            <h4>Global Course Downloads</h4>
+            <p>Grab essential offline assets required for our curriculums.</p>
+            <ul>
+                <li>
+                    <strong>Starter Template Pack (HTML/CSS):</strong> 
+                    <a href="downloads/starter-pack.zip" download>Download ZIP (15MB)</a>
+                </li>
+                <li>
+                    <strong>YouthTechG Python Cheat Sheet:</strong> 
+                    <a href="downloads/python-cheatsheet.pdf" download>Download PDF (2MB)</a>
+                </li>
+                <li>
+                    <strong>Algorithm Practice Problems:</strong> 
+                    <a href="downloads/algo-practice.txt" download>Download TXT (50KB)</a>
+                </li>
+            </ul>
+        </div>
+    </article>
+
+    <hr>
+
+    <!-- 2. FULL COURSE TRACKS -->
+    <article>
+        <h3>🛠️ Available Tech Courses</h3>
+
+        <!-- Course 1 -->
+        <div class="course-card">
+            <h4>💻 Full-Stack Web Development</h4>
+            <p>Go from zero to building full-scale, responsive web applications. Master HTML5, CSS3, JavaScript, and modern front-end frameworks.</p>
+            
+            <h5>Course Syllabus & Documents:</h5>
+            <ul>
+                <li><a href="syllabus/web-syllabus.pdf" download>📜 Download Syllabus (PDF)</a></li>
+                <li><a href="slides/web-week1.pdf" download>📊 Download Week 1 Slides (PDF)</a></li>
+            </ul>
+
+            <p>
+                <a href="#register-web">Enroll in Course</a> | 
+                <a href="#preview-web">Watch Free Preview</a>
+            </p>
+        </div>
+
+        <hr>
+
+        <!-- Course 2 -->
+        <div class="course-card">
+            <h4>🤖 Artificial Intelligence & Machine Learning</h4>
+            <p>Learn the foundations of AI, linear regression, neural networks, and how to ethically build predictive algorithms using Python.</p>
+            
+            <h5>Course Syllabus & Documents:</h5>
+            <ul>
+                <li><a href="syllabus/ai-syllabus.pdf" download>📜 Download Syllabus (PDF)</a></li>
+                <li><a href="data/ai-dataset.zip" download>🗄️ Download Practice Datasets (ZIP)</a></li>
+            </ul>
+
+            <p>
+                <a href="#register-ai">Enroll in Course</a> | 
+                <a href="#preview-ai">Watch Free Preview</a>
+            </p>
+        </div>
+
+        <hr>
+
+        <!-- Course 3 -->
+        <div class="course-card">
+            <h4>🎮 Game Design & Development</h4>
+            <p>Learn how to prototype, design mechanics, and build interactive 2D and 3D games from scratch using popular game engines.</p>
+            
+            <h5>Course Syllabus & Documents:</h5>
+            <ul>
+                <li><a href="syllabus/game-syllabus.pdf" download>📜 Download Syllabus (PDF)</a></li>
+                <li><a href="assets/game-sprites.zip" download>🎨 Download Sprite Asset Pack (ZIP)</a></li>
+            </ul>
+
+            <p>
+                <a href="#register-game">Enroll in Course</a> | 
+                <a href="#preview-game">Watch Free Preview</a>
+            </p>
+        </div>
+    </article>
+
+</section>
+<script src="./index3.js"></script>
+</body>
+</html>

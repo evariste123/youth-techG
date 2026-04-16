@@ -5,11 +5,11 @@ menubutton.addEventListener('click', (e) => {
     menubutton.innerHTML = `
     <div class="card" id="navcard">
         <div class="card1">
-            <a href="#home">home</a>
-            <a href="#service">service</a>
-            <a href="./index6.html">blog</a>
-            <a href="./index1.html">about</a>
-            <a href="#contact">contact</a>
+            <a href="#home">Home</a>
+            <a href="./index1.html">About</a>
+            <a href="./index5.html">Programs</a>
+            <a href="./index6.html">Blog</a>
+            <a href="#contact">Contact</a>
         </div>
         <div class="card2" id="closebutton"><a href="./index.html">✕</a></div>
     </div>`;

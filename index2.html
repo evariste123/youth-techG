@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentorship-form</title>
+    <link rel="stylesheet" href="./index2.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <!-- Replace with your actual logo file path -->
+             <div class="logo">
+            <a href="./index.html">
+              <h2>YouthTechG</h2>
+            </a>
+            </div>
+            <div class="link">
+                <a href="#home">🏠 Home</a>
+                <a href="./index1.html">👥 About</a>
+                <a href="./index5.html">👩‍💻Programs</a>
+                <a href="./index6.html">📖 Blog</a>
+                <a href="./index3.html">📚Courses</a>
+            </div>
+             <div class="hidden" id="menubutton">☰</div>
+        </nav>
+    </header>
+    <!-- MENTORSHIP APPLICATION FORM -->
+<section id="mentorship-form">
+    
+    <h2>Apply for YouthTechG Mentorship 🤝</h2>
+    <p>Take your tech journey to the next level by getting paired with an industry expert who will guide your learning and career growth.</p>
+
+    <form action="#" method="POST">
+        
+        <!-- Fieldset for Personal Information -->
+        <fieldset>
+            <legend>Personal Details</legend>
+            
+            <p>
+                <label for="first-name">First Name:</label><br>
+                <input type="text" id="first-name" name="first-name" placeholder="John" required>
+            </p>
+            
+            <p>
+                <label for="last-name">Last Name:</label><br>
+                <input type="text" id="last-name" name="last-name" placeholder="Doe" required>
+            </p>
+            
+            <p>
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email" placeholder="john.doe@example.com" required>
+            </p>
+            
+            <p>
+                <label for="age">Your Age:</label><br>
+                <input type="number" id="age" name="age" min="13" max="30" placeholder="18" required>
+                <br><small>Mentorship is primarily open to youth aged 13 to 30.</small>
+            </p>
+        </fieldset>
+
+        <!-- Fieldset for Technical Background -->
+        <fieldset>
+            <legend>Your Tech Interests</legend>
+            
+            <p>
+                <label for="skill-level">Current Skill Level:</label><br>
+                <select id="skill-level" name="skill-level" required>
+                    <option value="" disabled selected>-- Select your level --</option>
+                    <option value="beginner">Beginner (No coding experience)</option>
+                    <option value="intermediate">Intermediate (Know the basics / built small projects)</option>
+                    <option value="advanced">Advanced (Comfortable with frameworks / seeking job prep)</option>
+                </select>
+            </p>
+
+            <p>
+                <label>What areas do you want mentorship in? (Select all that apply):</label><br>
+                
+                <input type="checkbox" id="track-web" name="interests" value="web-dev">
+                <label for="track-web">💻 Full-Stack Web Development</label><br>
+                
+                <input type="checkbox" id="track-ai" name="interests" value="ai">
+                <label for="track-ai">🤖 Artificial Intelligence & Machine Learning</label><br>
+                
+                <input type="checkbox" id="track-game" name="interests" value="game-dev">
+                <label for="track-game">🎮 Game Design & Development</label><br>
+                
+                <input type="checkbox" id="track-ui" name="interests" value="ui-ux">
+                <label for="track-ui">🎨 UI/UX Design</label><br>
+                
+                <input type="checkbox" id="track-career" name="interests" value="career-prep">
+                <label for="track-career">📄 Tech Resume & Interview Prep</label>
+            </p>
+
+            <p>
+                <label for="portfolio">Portfolio or GitHub Link (Optional):</label><br>
+                <input type="url" id="portfolio" name="portfolio" placeholder="https://github.com">
+            </p>
+        </fieldset>
+
+        <!-- Fieldset for Motivation -->
+        <fieldset>
+            <legend>Goals & Motivation</legend>
+            <p>
+                <label for="motivation">Why do you want to join the YouthTechG mentorship program?</label><br>
+                <textarea id="motivation" name="motivation" rows="5" cols="50" placeholder="Tell us about your tech goals and what you hope to achieve with a mentor..." required></textarea>
+            </p>
+        </fieldset>
+
+        <!-- Agreement and Submit -->
+        <p>
+            <input type="checkbox" id="consent" name="consent" required>
+            <label for="consent">I agree to actively participate, respect my mentor's time, and follow the YouthTechG community guidelines.</label>
+        </p>
+
+        <p>
+            <button type="submit">Submit Application 🚀</button>
+        </p>
+
+    </form>
+</section>
+<script src="./index2.js"></script>
+</body>
+</html>

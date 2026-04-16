@@ -7,8 +7,8 @@ menubutton.addEventListener('click', (e) => {
         <div class="card1">
             <a href="#home">Home</a>
             <a href="#about">About</a>
-            <a href="#programs">Programs</a>
-            <a href="#blog">Blog</a>
+            <a href="./index5.html">Programs</a>
+            <a href="./index6.html">Blog</a>
             <a href="#contact">Contact</a>
         </div>
         <div class="card2" id="closebutton"><a href="./index.html">✕</a></div>
