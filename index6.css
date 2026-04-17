@@ -137,3 +137,313 @@ body{
     text-decoration: none;
     color:red;
 }
+
+.header{
+    padding: 20px 20px;
+    background:linear-gradient(150deg,#c6f2fc,#1d2231);
+    color: black;
+    font-size: 2rem;
+    margin-top: 80px;
+}
+.header h2{
+    color: white;
+    font-style: italic;
+    text-shadow: 0 10px 0 rgb(61, 60, 60);
+}
+.header p{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 500;
+    text-shadow: 0 3px 0 darkgray;
+}
+#home.item{
+    padding: 100px 20px;
+     background-image: linear-gradient(150deg,rgba(53, 31, 95, 0.7), rgba(49, 48, 48, 0.7)), 
+    url('./image/IMG_20251210_164950_618.jpg');
+    border-radius: 0 0 10px 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 1;
+}
+.item h4{
+    font-size: 2rem;
+    text-shadow: 0 5px 0 #fafafa;
+    color: #181e31;
+
+}
+.item p{
+    font-size: 17px;
+}
+.image{
+    padding: 20px 20px;
+}
+.image img{
+    width: 500px;
+    height: 350px;
+    border-radius: 5px;
+    object-fit: fill;
+    border: 10px solid black;
+}
+.image img:hover{
+    transition: all ease 0.3s;
+    cursor: pointer;
+    transform: translateY(-5px);
+    border: 10px solid #181e31;
+}
+@media(max-width:600px){
+    .image img{
+        width: 80vw;
+        height: 30vh;
+    }
+    .image{
+        justify-self: center;
+    }
+}
+.figcaption{
+    margin-top: 40px;
+    font-size: 20px;
+    color: white;
+    text-shadow: 0 5px 0 black;
+}
+.item1{
+    padding: 20px 20px;
+    background-color: #1d2231;
+    border-radius: 5px;
+}
+.item h4 a{
+    color: white;
+    text-decoration:underline;
+    text-shadow: none;
+}
+.item1 h4 a:hover{
+    color: wheat;
+    transition: all ease 0.3s;
+    cursor: pointer;
+}
+.item1 small{
+    color: #1b70e0;
+    font-size: 20px;
+    text-shadow: 0 1px 0 #1b70e0;
+}
+.item1 a{
+    text-decoration: none;
+    font-size: 17px;
+    color: yellowgreen;
+    padding: 10px 10px;
+    background: #252c41;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.item1 a:hover{
+    transition: all ease 0.3s;
+    transform: translateY(-5px);
+    background-color: #313a55;
+}
+.item1 p{
+    color: darkgray;
+}
+.container{
+    padding: 100px 15px;
+    opacity:1;
+    background: linear-gradient(190deg,#ffffff,#fafafa,#d7f2f8);
+}
+.container h3{
+    font-size: 1.5rem;
+    color: #1b70e0;
+    text-shadow: 0 2px 0 rgb(10, 40, 136);
+    opacity: 1;
+}
+.blog-card{
+    padding: 20px 20px;
+    background-color:#313a55;
+    border-radius: 5px;
+}
+.blog-card img{
+    border-radius: 5px;
+    border: 2px solid #f11d1d;
+}
+hr{
+    padding: 3px;
+    background: linear-gradient(305deg,#0778fa,#06306e,green);
+    box-shadow: 0px 0px 30px black;
+    border: none;
+    border-radius: 30px;
+}
+@media(max-width:600px){
+    .blog-card img{
+        width: 80vw;
+        height: 30vh;
+    }
+    .blog-card p{
+        color: white;
+    }
+}
+.blog-card h4 a{
+    color: white;
+}
+.blog-card h4 a:hover{
+    transition: all ease 0.3s;
+    color: wheat;
+    cursor: pointer;
+}
+.blog-card p{
+    color: #020202;
+}
+.blog-card1 a{
+    text-decoration: none;
+    font-size: 17px;
+    color: yellowgreen;
+    padding: 10px 10px;
+    background: #12151f;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.blog-card1 a:hover{
+    transition: all ease 0.3s;
+    transform: translateY(-5px);
+    background-color: #313a55;
+}
+#contact.item2{
+    padding: 80px 20px;
+    background: linear-gradient(135deg,#313a55,#efe4f7);
+}
+.item2 h3{
+    font-size: 2rem;
+    text-shadow: 0 5px 0 white;
+}
+.item2 p{
+    font-size: 17px;
+}
+.item2 label{
+    color: white;
+    font-weight: 900;
+}
+.item2 input{
+    padding: 10px;
+    width: 800px;
+    border-bottom: 2px solid black;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: transparent;
+}
+.item2 input:hover{
+    border: 1px solid #06306e;
+    box-shadow:  0 0 10px #0778fa;
+    cursor: pointer;
+    transition: all ease 0.3s;
+    transform: translateY(-5px);
+    border-radius: 5px;
+}
+@media(max-width:600px){
+    .item2 input{
+        width: 80vw;
+        padding: 10px;
+        border-bottom: 2px solid rgb(77, 10, 10);
+    }
+}
+.item2 input::placeholder{
+    font-size: 20px;
+    font-weight: 900;
+    color: black;
+    text-shadow: 0 2px 0  black;
+}
+.item2 button{
+    padding: 10px 10px;
+    font-size: 20px;
+    background-color: lime;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.item2 button:hover{
+    transform: translateY(-5px);
+    transition: all ease-in 0.3s;
+    cursor: pointer;
+    background-color: #313a55;
+    color: white;
+}
+.footer{
+    background: linear-gradient(145deg,#000000,#181e31,#172525);
+    padding: 80px 20px;
+    color: white;
+}
+.item3{
+    padding: 20px;
+}
+.item3 h4{
+    color: #07fad1;
+    font-size: 20px;
+    text-shadow: 0 2px 0 #f8c727;
+}
+.item3 p{
+    color: #eceff0;
+    font-size: 18px;
+}
+.item4{
+    padding: 20px;
+}
+.item4 h5{
+    color: wheat;
+}
+.item4 a{
+    color: #0778fa;
+    text-decoration: none;
+}
+.item4 a:hover{
+    transition: all ease 0.3s;
+    cursor: pointer;
+    color: wheat;
+    text-decoration: underline;
+}
+.item5{
+    padding: 20px;
+}
+.item5 h5{
+    color: wheat;
+}
+.item5 a{
+    color: #f8c727;
+    text-decoration: none;
+}
+.item5 a:hover{
+    transition: all ease 0.3s;
+    cursor: pointer;
+    color: wheat;
+    text-decoration: underline;
+}
+.item6{
+    padding: 20px;
+}
+.item6 h5{
+    color: #0778fa;
+}
+.item6 a{
+    color: #045f9b;
+    text-decoration: none;
+}
+.item6 a:hover{
+    transition: all ease 0.3s;
+    cursor: pointer;
+    color: wheat;
+    text-decoration: underline;
+}
+.item7{
+    margin-top: 50px;
+}
+.item7 a{
+    color: #575656;
+    text-decoration: none;
+}
+.item7 a:hover{
+    transition: all ease 0.3s;
+    cursor: pointer;
+    color: wheat;
+    text-decoration: underline;
+}

@@ -16,8 +16,8 @@
             </a>
             </div>
             <div class="link">
-                <a href="./index.html">🏠 Home</a>
-                <a href="./index2.html">👥 About</a>
+                <a href="#home">🏠 Home</a>
+                <a href="./index1.html">👥 About</a>
                 <a href="./index5.html">👩‍💻Programs</a>
                 <a href="./index6.html">📖 Blog</a>
                 <a href="#contact">📧 Contact</a>
@@ -28,24 +28,24 @@
     <!-- 📰 YOUTHTECHG OFFICIAL BLOG SECTION -->
 <section id="blog">
 
-    <header>
+    <header class="header">
         <h2>📰 The YouthTechG Blog &amp; Tech Insights</h2>
         <p>Stay up to date with the latest industry trends, student success stories, digital literacy breakdowns, and free coding tutorials written by youth, for youth. Our blog is a curated space where the next generation of developers shares their raw knowledge, breakthroughs, and digital journey.</p>
     </header>
 
     <!-- 1. FEATURED ARTICLE -->
-    <article class="featured-post">
-        <h3>⭐ Featured Article</h3>
+    <article class="item" id="home">
+        <h4>⭐ Featured Article</h4>
         
         <!-- Replace with a high-quality landscape image of a student coding -->
-        <figure>
-            <img src="featured-blog-image.jpg" alt="Student typing code on a laptop with neon lights" width="800">
-            <figcaption>Youth creators are blending human creativity with artificial intelligence to shape the web of tomorrow.</figcaption>
+        <figure class="image">
+                  <img src="./image/code.jpg" alt="Student typing code on a laptop with neon lights">
+            <figcaption class="figcaption">Youth creators are blending human creativity with artificial intelligence to shape the web of tomorrow.</figcaption>
         </figure>
 
-        <div>
+        <div class="item1">
             <h4><a href="#blog-post-1">How AI is Changing the Landscape for Young Developers in 2026</a></h4>
-            <p><small>Published on: April 10, 2026 | Written by: Admin Alex | Category: Artificial Intelligence</small></p>
+            <p><small>Published on: April 10, 2026 | Written by: Bapfekurera Evariste | Category: Artificial Intelligence</small></p>
             <p>
                 Artificial Intelligence is no longer just a futuristic, abstract concept reserved for Silicon Valley labs; it is actively reshaping how modern software is built by developers of all ages. In this deep dive, we explore how young developers can leverage prompt engineering and large language models as automated coding assistants. 
             </p>
@@ -59,13 +59,13 @@
     <hr>
 
     <!-- 2. RECENT POSTS GRID -->
-    <section>
+    <section class="container">
         <h3>📥 Recent Posts</h3>
 
         <!-- Blog Post 2 -->
         <article class="blog-card">
             <!-- Replace with a square thumbnail image -->
-            <img src="blog-thumb-web.jpg" alt="HTML and CSS code on a monitor" width="300">
+            <img src="./image/code.jpg" alt="HTML and CSS code on a monitor" width="300">
             <div>
                 <h4><a href="#blog-post-2">5 CSS Tricks Every Beginner Should Master This Week</a></h4>
                 <p><small>April 05, 2026 | By: Mentor Sarah | Category: Web Development</small></p>
@@ -75,7 +75,7 @@
                 <p>
                     Learn how to easily center divs using modern Flexbox alignment, create beautiful frosted-glass UI containers with native glassmorphism, map out complex layouts with CSS Grid, and craft simple smooth keyframe animations that make user interfaces feel smooth and premium.
                 </p>
-                <a href="#blog-post-2">Read Full Tutorial →</a>
+               <div class="blog-card1"><a href="#blog-post-3">Read Full Story →</a></div>
             </div>
         </article>
 
@@ -83,7 +83,7 @@
 
         <!-- Blog Post 3 -->
         <article class="blog-card">
-            <img src="blog-thumb-game.jpg" alt="A game controller sitting on a desk" width="300">
+            <img src="./image/download (1).jpeg" alt="A game controller sitting on a desk" width="300">
             <div>
                 <h4><a href="#blog-post-3">Spotlight: How 15-Year-Old Leo Built His First 2D Game</a></h4>
                 <p><small>March 28, 2026 | By: YouthTechG Community Team | Category: Student Spotlight</small></p>
@@ -93,7 +93,7 @@
                 <p>
                     Leo walks us through his raw struggles with loop mechanics, how he leveraged the YouthTechG community help channels to get over development hurdles, and his process for drafting the custom sprite assets that made his game stand out from the crowd.
                 </p>
-                <a href="#blog-post-3">Read Full Story →</a>
+                <div class="blog-card1"><a href="#blog-post-3">Read Full Story →</a></div>
             </div>
         </article>
 
@@ -101,7 +101,7 @@
 
         <!-- Blog Post 4 -->
         <article class="blog-card">
-            <img src="blog-thumb-git.jpg" alt="GitHub logo on a screen" width="300">
+            <img src="./image/images (1).jpeg" alt="GitHub logo on a screen" width="300">
             <div>
                 <h4><a href="#blog-post-4">A Teenager's Guide to Git and GitHub Open Source</a></h4>
                 <p><small>March 15, 2026 | By: Dev Jordan | Category: Software Engineering</small></p>
@@ -111,7 +111,7 @@
                 <p>
                     In this beginner-friendly guide, Dev Jordan walks teenagers through the core concepts of staging files, committing your source code safely, pushing projects to remote cloud repositories, opening your first pull request, and safely contributing to massive open-source project frameworks without breaking anything.
                 </p>
-                <a href="#blog-post-4">Read Full Guide →</a>
+                <div class="blog-card1"><a href="#blog-post-3">Read Full Story →</a></div>
             </div>
         </article>
     </section>
@@ -119,18 +119,18 @@
     <hr>
 
     <!-- 3. NEWSLETTER SUBSCRIPTION -->
-    <aside>
+    <aside class="item2" id="contact">
         <h3>📬 Never Miss a Tech Update!</h3>
         <p>Subscribe to our newsletter to receive free coding cheat sheets, global event announcements, career roadmaps, and blog digests delivered directly to your inbox every single week. We respect your digital privacy and operate on a strict zero-spam policy.</p>
         
-        <form action="#" method="POST">
+        <form action="#" method="POST" id="myform">
             <p>
                 <label for="subscriber-name">Your Full Name:</label><br>
-                <input type="text" id="subscriber-name" name="subscriber-name" placeholder="Alex Smith" required>
+                <input type="text" id="subscriber-name" name="subscriber-name" placeholder="evariste Bapfekurera" required>
             </p>
             <p>
                 <label for="subscriber-email">Your Email Address:</label><br>
-                <input type="email" id="subscriber-email" name="subscriber-email" placeholder="alex.smith@example.com" required>
+                <input type="email" id="subscriber-email" name="subscriber-email" placeholder="Bapfekureraexample@gmail.com" required>
             </p>
             <p>
                 <button type="submit">Subscribe to Blog 🚀</button>
@@ -141,15 +141,15 @@
 </section>
 
 <!-- 4. THE FOOTER SECTION -->
-<footer>
-    <hr>
+<footer class="footer">
     
-    <div>
+    
+    <div class="item3">
         <h4>YouthTechG</h4>
         <p>Empowering the next generation of digital architects, software engineers, data scientists, and tech pioneers. We are bridging the digital divide and building the automated future, one line of clean code at a time.</p>
     </div>
 
-    <div>
+    <div class="item4">
         <h5>Explore Our Ecosystem</h5>
         <ul>
             <li><a href="#about">About Us</a> - Learn about our history, our dedicated student-led team, and our long-term educational vision.</li>
@@ -159,7 +159,7 @@
         </ul>
     </div>
 
-    <div>
+    <div class="item5">
         <h5>Student Resources</h5>
         <ul>
             <li><a href="#handbook">Student Handbook</a> - Your complete guide to community rules, platform guidelines, and terminal navigation.</li>
@@ -169,7 +169,7 @@
         </ul>
     </div>
 
-    <div>
+    <div class="item6">
         <h5>Stay Connected &amp; Social</h5>
         <p>Follow our daily coding updates, student project spotlights, and live event announcements on our official social media channels:</p>
         <ul>
@@ -182,7 +182,7 @@
 
     <hr>
 
-    <div>
+    <div class="item7">
         <p>&copy; 2026 YouthTechG. All Rights Reserved. We are a registered non-profit organization dedicated to completely accessible tech education for all youth. | <a href="#privacy">Privacy Policy</a> | <a href="#terms">Terms of Service</a> | <a href="#cookies">Cookie Settings</a></p>
     </div>
 </footer>
